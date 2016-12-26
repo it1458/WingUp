@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">WingUp</string>
+    <string name="txtView1">FIND A FLIGHT</string>
+    <string name="txtViewFrom">From: </string>
+    <string name="txtViewTo">To: </string>
+    <string name="noStop">Non-Stop Flight </string>
+    <string name="txtViewSeat">Seat: </string>
+    <string name="txtViewSeatEc">Economic</string>
+    <string name="txtViewSeatEx">Exclusive</string>
+    <string name="txtViewSeatAll">All</string>
+    <string name="buttonClear">Clear All</string>
+    <string name="buttonFind">Find flight</string>
+    <string name="imgDescr">Image with airplane</string>
+    <string name="txtViewPssngr">Passenger(s): </string>
+    <string name="buttonPlus">+</string>
+    <string name="buttonMinus">-</string>
+    <string name="txtViewPssngrNum">0</string>
+</resources>
