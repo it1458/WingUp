@@ -86,6 +86,28 @@
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="25sp"/>
 
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="17dp"
+                android:layout_marginTop="17dp">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/withReturnRadioButton"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="22sp"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/simpleTransitionRadioButton"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="22sp"/>
+            </RadioGroup>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

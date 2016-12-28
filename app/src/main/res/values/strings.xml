@@ -15,4 +15,7 @@
     <string name="buttonPlus">+</string>
     <string name="buttonMinus">-</string>
     <string name="txtViewPssngrNum">0</string>
+    <string name="withReturnRadioButton">With Return</string>
+    <string name="simpleTransitionRadioButton">Simple Transition</string>
+
 </resources>
