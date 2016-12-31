@@ -13,4 +13,90 @@
         <item name="android:textColorSecondary">@color/textColorPrimary</item>
     </style>
 
+    <style name="forTheVeryTopLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="forTheTxtLabels">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="forTheTxtPssngrs">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="forThePlusMinusBtns">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/backgroundColor</item>
+    </style>
+
+    <style name="forTheRadioButtons">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="forTheRadioGroupsVert">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="forTheRadioGroupsHor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+    <style name="forTheTxtLabelsFromTo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="forTheEditTexts">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:inputType">textMultiLine</item>
+    </style>
+
+    <style name="forTheCheckBoxes">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="forTheImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:paddingBottom">50dp</item>
+    </style>
+
+    <style name="forTheBtnContainer">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.5</item>
+    </style>
 </resources>

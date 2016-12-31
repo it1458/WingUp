@@ -27,14 +27,9 @@
             android:layout_marginBottom="180dp">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/txtView1"
-                android:textSize="25sp"
                 android:id="@+id/find_label"
-                android:textColor="@color/colorPrimaryDark"
-                android:layout_gravity="center"
-                android:textStyle="italic"/>
+                style="@style/forTheVeryTopLabel"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -43,17 +38,11 @@
                 android:layout_marginTop="16dp"
                 android:orientation="horizontal">
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:text="@string/txtViewFrom"
-                    android:textSize="25sp"
-                    android:textColor="@color/colorPrimaryDark"/>
+                    style="@style/forTheTxtLabelsFromTo"/>
                 <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/colorPrimaryDark"
                     android:id="@+id/from_edit"
-                    android:inputType="textMultiLine"/>
+                    style="@style/forTheEditTexts"/>
             </LinearLayout>
 
             <LinearLayout
@@ -61,133 +50,100 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/to_container"
                 android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp"
                 android:orientation="horizontal">
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:text="@string/txtViewTo"
-                    android:textSize="25sp"
-                    android:textColor="@color/colorPrimaryDark"/>
+                    style="@style/forTheTxtLabelsFromTo"/>
                 <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/colorPrimaryDark"
                     android:id="@+id/to_edit"
-                    android:inputType="textMultiLine"/>
+                    style="@style/forTheEditTexts"/>
             </LinearLayout>
 
             <CheckBox
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp"
                 android:text="@string/noStop"
-                android:textColor="@color/colorPrimaryDark"
-                android:textSize="25sp"/>
+                style="@style/forTheCheckBoxes"/>
+
+            <TextView
+                android:text="@string/txtViewOneWay"
+                style="@style/forTheTxtLabels"/>
 
             <RadioGroup
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginBottom="17dp"
-                android:layout_marginTop="17dp">
-
+                style="@style/forTheRadioGroupsVert">
                 <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:text="@string/withReturnRadioButton"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:textSize="22sp"/>
-
+                    style="@style/forTheRadioButtons"/>
                 <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:text="@string/simpleTransitionRadioButton"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:textSize="22sp"/>
+                    style="@style/forTheRadioButtons"/>
             </RadioGroup>
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="25sp"
-                android:layout_marginTop="16dp"
                 android:text="@string/txtViewSeat"
-                android:textColor="@color/colorPrimaryDark"
-                android:layout_gravity="center"/>
+                style="@style/forTheTxtLabels"/>
 
             <RadioGroup
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginBottom="17dp">
+                style="@style/forTheRadioGroupsHor">
                 <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="22sp"
                     android:text="@string/txtViewSeatEc"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:layout_weight="1"/>
+                    style="@style/forTheRadioButtons"/>
                 <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="22sp"
                     android:text="@string/txtViewSeatEx"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:layout_weight="1" />
+                    style="@style/forTheRadioButtons"/>
                 <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="22sp"
                     android:text="@string/txtViewSeatAll"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:layout_weight="1"/>
+                    style="@style/forTheRadioButtons"/>
             </RadioGroup>
+
+            <TextView
+                android:text="@string/txtPssngr"
+                style="@style/forTheTxtLabels"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginBottom="16dp"
-                android:layout_marginTop="16dp">
-
+                android:orientation="horizontal">
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/txtViewPssngr"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:textSize="25sp"/>
-
+                    android:text="@string/txtViewPssngrAd"
+                    style="@style/forTheTxtPssngrs"/>
                 <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:text="@string/buttonPlus"
-                    android:textSize="25sp"
-                    android:id="@+id/buttonPlus"/>
-
+                    android:id="@+id/buttonPlusAd"
+                    style="@style/forThePlusMinusBtns"/>
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:text="@string/txtViewPssngrNum"
-                    android:textSize="25sp"
-                    android:id="@+id/txtViewPassenger"
-                    android:textColor="@color/colorPrimaryDark"/>
-
+                    android:id="@+id/txtViewPassengerAd"
+                    style="@style/forTheTxtPssngrs"/>
                 <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:text="@string/buttonMinus"
-                    android:textSize="25sp"
-                    android:id="@+id/buttonMinus"/>
+                    android:id="@+id/buttonMinusAd"
+                    style="@style/forThePlusMinusBtns"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:text="@string/txtViewPssngrCh"
+                    style="@style/forTheTxtPssngrs"/>
+                <Button
+                    android:text="@string/buttonPlus2"
+                    android:id="@+id/buttonPlusCh"
+                    style="@style/forThePlusMinusBtns"/>
+                <TextView
+                    android:text="@string/txtViewPssngrNum"
+                    android:id="@+id/txtViewPassengerCh"
+                    style="@style/forTheTxtPssngrs"/>
+                <Button
+                    android:text="@string/buttonMinus2"
+                    android:id="@+id/buttonMinusCh"
+                    style="@style/forThePlusMinusBtns"/>
             </LinearLayout>
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="120dp"
                 android:contentDescription="@string/imgDescr"
                 android:src="@drawable/icon1"
-                android:paddingBottom="50dp"/>
+                style="@style/forTheImage"/>
         </LinearLayout>
     </ScrollView>
 
@@ -199,16 +155,11 @@
         android:id="@+id/bottom_container">
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:text="@string/buttonClear"
-            android:layout_weight="0.5"/>
-
+            style="@style/forTheBtnContainer"/>
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:text="@string/buttonFind"
-            android:layout_weight="0.5"/>
+            style="@style/forTheBtnContainer"/>
 
     </LinearLayout>
 </RelativeLayout>

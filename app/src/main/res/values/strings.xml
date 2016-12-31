@@ -1,9 +1,12 @@
 <resources>
     <string name="app_name">WingUp</string>
-    <string name="txtView1">Find a Flight</string>
+    <string name="txtView1">FIND A FLIGHT</string>
     <string name="txtViewFrom">From: </string>
     <string name="txtViewTo">To: </string>
     <string name="noStop">Non-Stop Flight </string>
+    <string name="txtViewOneWay">One way or Two?</string>
+    <string name="withReturnRadioButton">With Return</string>
+    <string name="simpleTransitionRadioButton">Simple Transition</string>
     <string name="txtViewSeat">Seat: </string>
     <string name="txtViewSeatEc">Economic</string>
     <string name="txtViewSeatEx">Exclusive</string>
@@ -11,11 +14,12 @@
     <string name="buttonClear">Clear All</string>
     <string name="buttonFind">Find flight</string>
     <string name="imgDescr">Image with airplane</string>
-    <string name="txtViewPssngr">Passenger(s): </string>
+    <string name="txtPssngr">Passenger(s)</string>
+    <string name="txtViewPssngrAd">Passenger(s): \n      (adults)</string>
     <string name="buttonPlus">+</string>
     <string name="buttonMinus">-</string>
+    <string name="txtViewPssngrCh">Passenger(s): \n    (children)</string>
+    <string name="buttonPlus2">+</string>
+    <string name="buttonMinus2">-</string>
     <string name="txtViewPssngrNum">0</string>
-    <string name="withReturnRadioButton">With Return</string>
-    <string name="simpleTransitionRadioButton">Simple Transition</string>
-
 </resources>
