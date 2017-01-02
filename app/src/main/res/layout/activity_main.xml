@@ -41,11 +41,13 @@
                     android:text="@string/txtViewFrom"
                     android:id="@+id/txtViewFrom"
                     style="@style/forTheTxtLabelsFromTo"/>
+
                 <AutoCompleteTextView
                     android:id="@+id/from_edit"
                     style="@style/forTheEditTexts"
                     android:layout_alignLeft="@+id/txtViewFrom"
                     android:layout_below="@+id/txtViewFrom"
+                    android:layout_margin="0dp"
                     android:hint="@string/hintAutoComplFrom"/>
             </LinearLayout>
 
@@ -63,6 +65,7 @@
                     style="@style/forTheEditTexts"
                     android:layout_alignLeft="@+id/txtViewTo"
                     android:layout_below="@+id/txtViewTo"
+                    android:layout_margin="0dp"
                     android:hint="@string/hintAutoComplTo"/>
             </LinearLayout>
 
