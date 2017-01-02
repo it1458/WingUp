@@ -76,6 +76,10 @@
     <style name="forTheEditTexts">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">54dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:popupBackground">@color/colorPrimary</item>
+        <item name="android:textColorHint">@color/colorAccent</item>
         <item name="android:textColor">@color/colorPrimaryDark</item>
         <item name="android:inputType">textMultiLine</item>
     </style>

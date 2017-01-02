@@ -39,10 +39,14 @@
                 android:orientation="horizontal">
                 <TextView
                     android:text="@string/txtViewFrom"
+                    android:id="@+id/txtViewFrom"
                     style="@style/forTheTxtLabelsFromTo"/>
-                <EditText
+                <AutoCompleteTextView
                     android:id="@+id/from_edit"
-                    style="@style/forTheEditTexts"/>
+                    style="@style/forTheEditTexts"
+                    android:layout_alignLeft="@+id/txtViewFrom"
+                    android:layout_below="@+id/txtViewFrom"
+                    android:hint="@string/hintAutoComplFrom"/>
             </LinearLayout>
 
             <LinearLayout
@@ -54,9 +58,12 @@
                 <TextView
                     android:text="@string/txtViewTo"
                     style="@style/forTheTxtLabelsFromTo"/>
-                <EditText
+                <AutoCompleteTextView
                     android:id="@+id/to_edit"
-                    style="@style/forTheEditTexts"/>
+                    style="@style/forTheEditTexts"
+                    android:layout_alignLeft="@+id/txtViewTo"
+                    android:layout_below="@+id/txtViewTo"
+                    android:hint="@string/hintAutoComplTo"/>
             </LinearLayout>
 
             <CheckBox

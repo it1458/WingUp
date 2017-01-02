@@ -2,7 +2,9 @@
     <string name="app_name">WingUp</string>
     <string name="txtView1">FIND A FLIGHT</string>
     <string name="txtViewFrom">From: </string>
+    <string name="hintAutoComplFrom">Departure City or Airport</string>
     <string name="txtViewTo">To: </string>
+    <string name="hintAutoComplTo">Arrival City or Airport</string>
     <string name="noStop">Non-Stop Flight </string>
     <string name="txtViewOneWay">One way or Two?</string>
     <string name="withReturnRadioButton">With Return</string>
