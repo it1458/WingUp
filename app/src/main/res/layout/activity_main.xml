@@ -118,7 +118,8 @@
                 <Button
                     android:text="@string/buttonPlus"
                     android:id="@+id/buttonPlusAd"
-                    style="@style/forThePlusMinusBtns"/>
+                    style="@style/forThePlusMinusBtns"
+                    android:onClick="increment1"/>
                 <TextView
                     android:text="@string/txtViewPssngrNum"
                     android:id="@+id/txtViewPassengerAd"
@@ -126,7 +127,8 @@
                 <Button
                     android:text="@string/buttonMinus"
                     android:id="@+id/buttonMinusAd"
-                    style="@style/forThePlusMinusBtns"/>
+                    style="@style/forThePlusMinusBtns"
+                    android:onClick="decrement1"/>
             </LinearLayout>
 
             <LinearLayout
@@ -139,7 +141,8 @@
                 <Button
                     android:text="@string/buttonPlus2"
                     android:id="@+id/buttonPlusCh"
-                    style="@style/forThePlusMinusBtns"/>
+                    style="@style/forThePlusMinusBtns"
+                    android:onClick="increment2"/>
                 <TextView
                     android:text="@string/txtViewPssngrNum"
                     android:id="@+id/txtViewPassengerCh"
@@ -147,7 +150,8 @@
                 <Button
                     android:text="@string/buttonMinus2"
                     android:id="@+id/buttonMinusCh"
-                    style="@style/forThePlusMinusBtns"/>
+                    style="@style/forThePlusMinusBtns"
+                    android:onClick="decrement1"/>
             </LinearLayout>
 
             <ImageView
